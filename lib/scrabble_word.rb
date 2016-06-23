@@ -25,6 +25,6 @@ attr_reader :word
 
 end
 
-steve = ScrabbleWord.new("xzxzxzzx")
+steve = ScrabbleWord.new("xzqqxzqxzzqx")
 puts steve.score
 puts steve.multiplier_score(3)
